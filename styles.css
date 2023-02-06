@@ -1,0 +1,94 @@
+html, body, h1, h2, header, body, footer, p, nav, ul, li, a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+}
+
+nav {
+	background: url("images/nav2.jpg");
+	text-align: center;
+	overflow: auto;
+}
+    ul {
+        list-style: none;
+        margin: 17px;
+    }
+    li { 
+        display: inline-block;
+        padding: 25px; 
+    }
+    a {
+        display: inline-block;
+        margin: 0;
+        padding: 5px 15px;
+        color: #acc47c;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: #8a7179;
+        font-size: 1.5em;
+    }   
+
+header {
+	text-align: center;
+	padding: 20px 10px;
+	background: lightgray;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+
+h1 {
+	font-family: 'Nunito', "Times New Roman", "serif";
+	color: black;
+    font-weight: bold;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: 'Oswald', "Times New Roman", "serif";
+	color: black;
+	text-align: center;
+    font-size: 2em;
+	padding: 25px 10px 0 20px;
+	margin: 0 0 0 0;
+}
+
+body {
+	background: lightgray;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+main {
+	background: #acc47c;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: #8a7179;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+figcaption {
+    display: block;
+    color: black;
+    font-family: 'Nunito', "Times New Roman", "serif";
+    font-size: 1.5em;
+}
+
+footer {
+	color: #8a7179;
+	font-weight: bold;
+	background: lightgray;
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
