@@ -4,5 +4,5 @@
 <h2>Contributors</h2>
 <ul>
  <li>Professor Itskovich</li>
- </li>Jocelyn Dupuis</li>
+ <li>Jocelyn Dupuis</li>
 </ul>
