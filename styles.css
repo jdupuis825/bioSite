@@ -36,10 +36,10 @@ header {
 	background: lightgray;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
+    font-family: 'Nunito', "Times New Roman", "serif";
 }
 
 h1 {
-	font-family: 'Nunito', "Times New Roman", "serif";
 	color: black;
     font-weight: bold;
 	font-size: 4em;
@@ -56,21 +56,22 @@ h2 {
 
 body {
 	background: lightgray;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family: 'Nunito', "Times New Roman", "serif";
 }
 
 main {
-	background: #acc47c;
 	text-align: center;
 	padding: 5px 5px 5px 5px;
     border: 2px;
-    border-style: solid;
-    border-color: #8a7179;
-    border-radius: 5px;
+    
 }
 
 .row {
     display: flex;
+    background: #acc47c;
+    border-style: solid;
+    border-color: #8a7179;
+    border-radius: 5px;
 }
 
 .column {
@@ -78,17 +79,43 @@ main {
     padding: 5px;
 }
 
-figcaption {
+h3 {
     display: block;
+    text-align: center;
     color: black;
     font-family: 'Nunito', "Times New Roman", "serif";
     font-size: 1.5em;
 }
 
 footer {
+    display: inline-block;
 	color: #8a7179;
 	font-weight: bold;
 	background: lightgray;
 	text-align: center;
+    width: 100%;
 	padding: 10px 0 10px 0;
+}
+
+#container {
+    width: 55%;
+    float: left;
+    font-family: 'Oswald', "Times New Roman", "serif";
+    font-size: 1.95em;
+    text-align: justify;
+    font-weight: 300;
+    padding: 15px 10px 10px 10px;
+    border-style: solid;
+    border-color: #8a7179;
+    border-radius: 15px;
+}
+
+#picture {
+    Width: 40%;
+    float: right;
+    padding: 10px;
+    background: #acc47c;
+    border-style: solid;
+    border-color: #8a7179;
+    border-radius: 15px;
 }
