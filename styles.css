@@ -32,7 +32,7 @@ nav {
 
 header {
 	text-align: center;
-	padding: 20px 10px;
+	padding: 10px 10px;
 	background: lightgray;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
@@ -43,6 +43,7 @@ h1 {
 	color: black;
     font-weight: bold;
 	font-size: 4em;
+    font-family: 'Nunito', "Times New Roman", "serif";
 }
 
 h2 {
@@ -50,6 +51,7 @@ h2 {
 	color: black;
 	text-align: center;
     font-size: 2em;
+    font-weight: 300;
 	padding: 25px 10px 0 20px;
 	margin: 0 0 0 0;
 }
@@ -67,8 +69,9 @@ main {
 }
 
 .row {
-    display: flex;
-    background: #acc47c;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: url("images/wood2.jpg");
     border-style: solid;
     border-color: #8a7179;
     border-radius: 5px;
@@ -79,12 +82,24 @@ main {
     padding: 5px;
 }
 
-h3 {
+.title {
+    text-align: center;
+    font-family: 'Oswald', "Times New Roman", "serif";
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
     display: block;
     text-align: center;
+    font-style: italic;
     color: black;
     font-family: 'Nunito', "Times New Roman", "serif";
-    font-size: 1.5em;
+    font-size: .75em;
 }
 
 footer {
@@ -111,11 +126,37 @@ footer {
 }
 
 #picture {
-    Width: 40%;
+    width: 40%;
     float: right;
     padding: 10px;
-    background: #acc47c;
+    background: #72ad50;
     border-style: solid;
     border-color: #8a7179;
     border-radius: 15px;
+}
+
+.pic {
+    width: 400px;
+    height: 350px;
+    border: 2px;
+    border-style: solid;
+    border-color: #8a7179;
+    border-radius: 15px;
+}
+
+.inspiration {
+    font-family: 'Oswald', "Times New Roman", "serif";
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 300;
+    padding: 0 15px 15px 15px;
+}
+
+.row-hobbies {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: url("images/wood2.jpg");
+    border-style: solid;
+    border-color: #8a7179;
+    border-radius: 5px;
 }
