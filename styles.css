@@ -8,8 +8,10 @@ html, body, h1, h2, header, body, footer, p, nav, ul, li, a {
 
 nav {
 	background: url("images/nav2.jpg");
-	text-align: center;
-	overflow: auto;
+    text-align: center;
+    overflow: auto;
+    position: relative;
+    font-family: 'Sans-serif', "Times New Roman", "serif";
 }
     ul {
         list-style: none;
@@ -31,19 +33,19 @@ nav {
     }   
 
 header {
+    font-family: 'Oswald', "Times New Roman", "serif";
 	text-align: center;
-	padding: 10px 10px;
+	padding: 2px 5px 2px;
 	background: lightgray;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
-    font-family: 'Nunito', "Times New Roman", "serif";
 }
 
 h1 {
+    font-family: 'Oswald', "Times New Roman", "serif";
 	color: black;
     font-weight: bold;
-	font-size: 4em;
-    font-family: 'Nunito', "Times New Roman", "serif";
+	font-size: 3.5em; 
 }
 
 h2 {
@@ -52,20 +54,13 @@ h2 {
 	text-align: center;
     font-size: 2em;
     font-weight: 300;
-	padding: 25px 10px 0 20px;
+	padding: 10px 10px 10px 10px;
 	margin: 0 0 0 0;
 }
 
 body {
 	background: lightgray;
 	font-family: 'Nunito', "Times New Roman", "serif";
-}
-
-main {
-	text-align: center;
-	padding: 5px 5px 5px 5px;
-    border: 2px;
-    
 }
 
 .row {
@@ -116,7 +111,7 @@ footer {
     width: 55%;
     float: left;
     font-family: 'Oswald', "Times New Roman", "serif";
-    font-size: 1.90em;
+    font-size: 1.55em;
     text-align: justify;
     font-weight: 300;
     padding: 8px 10px 8px 10px;
@@ -146,10 +141,10 @@ footer {
 
 .inspiration {
     font-family: 'Oswald', "Times New Roman", "serif";
-    font-size: 1.5em;
+    font-size: 1.32em;
     text-align: center;
     font-weight: 300;
-    padding: 0 15px 15px 15px;
+    padding: 0 10px 10px 10px;
 }
 
 .row-hobbies {
@@ -159,4 +154,9 @@ footer {
     border-style: solid;
     border-color: #8a7179;
     border-radius: 5px;
+}
+
+img {
+    width: 300px;
+    height: 600px;
 }
