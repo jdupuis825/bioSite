@@ -30,12 +30,18 @@ nav {
         text-decoration: none;
         background-color: #8a7179;
         font-size: 1.5em;
-    }   
+    }  
+    
+nav a:hover {
+    color: #72ad50;
+    font-style: italic;
+    text-decoration: underline;
+}
 
 header {
     font-family: 'Oswald', "Times New Roman", "serif";
 	text-align: center;
-	padding: 2px 5px 2px;
+	padding: 0 5px 2px 5px;
 	background: lightgray;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
@@ -104,7 +110,8 @@ footer {
 	background: lightgray;
 	text-align: center;
     width: 100%;
-	padding: 10px 0 10px 0;
+	padding: 5px 0 5px 0;
+    font-family: 'Sans-serif', "Times New Roman", "serif";
 }
 
 #container {
