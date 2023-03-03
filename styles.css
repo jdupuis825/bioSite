@@ -7,7 +7,7 @@ html, body, h1, h2, header, body, footer, p, nav, ul, li, a {
 }
 
 nav {
-	background: url("images/nav2.jpg");
+	background: url("images/forest.jpg");
     text-align: center;
     overflow: auto;
     position: relative;
@@ -72,7 +72,7 @@ body {
 .row {
     display: grid;
     grid-template-columns: auto auto auto;
-    background: url("images/wood2.jpg");
+    background: url("images/wood paneling.jpg");
     border-style: solid;
     border-color: #8a7179;
     border-radius: 5px;
@@ -157,7 +157,7 @@ footer {
 .row-hobbies {
     display: grid;
     grid-template-columns: auto auto auto;
-    background: url("images/wood2.jpg");
+    background: url("images/wood paneling.jpg");
     border-style: solid;
     border-color: #8a7179;
     border-radius: 5px;
