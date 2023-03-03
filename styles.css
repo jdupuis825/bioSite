@@ -72,7 +72,7 @@ body {
 .row {
     display: grid;
     grid-template-columns: auto auto auto;
-    background: url("images/wood paneling.jpg");
+    background: url("images/woodpanel.jpg");
     border-style: solid;
     border-color: #8a7179;
     border-radius: 5px;
@@ -157,7 +157,7 @@ footer {
 .row-hobbies {
     display: grid;
     grid-template-columns: auto auto auto;
-    background: url("images/wood paneling.jpg");
+    background: url("images/woodpanel.jpg");
     border-style: solid;
     border-color: #8a7179;
     border-radius: 5px;
