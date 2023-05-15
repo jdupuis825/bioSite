@@ -167,3 +167,26 @@ img {
     width: 300px;
     height: 600px;
 }
+
+/**
+Styling for anchor/return element
+*/
+.return-home {
+  color: #4F3674;
+  text-decoration: none;
+}
+
+/**
+Styling for anchor/return element hover
+*/
+.return-home:hover {
+  background-color: #D6A800;
+  color: #4F3674
+}
+
+/**
+Styling for anchor/return element visited
+*/
+.return-home:visited {
+  color: #3C275A
+}
